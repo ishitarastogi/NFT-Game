@@ -9,7 +9,6 @@ create a NFT game  with frontend using Reactjs
 
 Decentralization: ability to have multiple idependent nodes computing and validating data
 
-For vrf we need two functions:
 
 # requestRandomness
 # Make a request to the VRF coordinator.

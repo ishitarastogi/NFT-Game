@@ -17,6 +17,7 @@ contract DungeonsAndDragonsCharacter is ERC721URIStorage, VRFConsumerBase, Ownab
  //to use in the request.
     bytes32 internal keyHash;
     uint256 internal fee;
+
     uint256 public randomResult;
     address public VRFCoordinator;
     // rinkeby: 0xb3dCcb4Cf7a26f6cf6B120Cf5A73875B7BBc655B
@@ -41,7 +42,6 @@ contract DungeonsAndDragonsCharacter is ERC721URIStorage, VRFConsumerBase, Ownab
     mapping(bytes32 => uint256) requestToTokenId;
 
     /**
-     * Constructor inherits VRFConsumerBase
      *
      * Network: Rinkeby
      * Chainlink VRF Coordinator address: 0xb3dCcb4Cf7a26f6cf6B120Cf5A73875B7BBc655B

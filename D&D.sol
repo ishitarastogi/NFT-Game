@@ -21,7 +21,7 @@ contract DungeonsAndDragonsCharacter is ERC721URIStorage, VRFConsumerBase, Ownab
     address public VRFCoordinator;
     // rinkeby: 0xb3dCcb4Cf7a26f6cf6B120Cf5A73875B7BBc655B
     address public LinkToken;
-    // rinkeby: 0x01BE23585060835E02B77ef475b0Cc51aA1e0709a
+    // rinkeby: 
 
     struct Character {
         uint256 strength;
